@@ -7,9 +7,9 @@
 int main (){
     int calificacion;
     puts("INTRODUCE UNA CLIFICACION");
-    scanf("%d", calificacion)
+    scanf("%d", &calificacion);
     if(calificacion >= 70){
         printf("¡FELICIDADES APROBASTE EL CURSO!");
     }
-    printf ("LA CALIFICACION MINIMA APROBATORIA ES 70");
-} //Fin main 
+    printf("LA CALIFICACION MINIMA APROBATORIA ES 70");
+}
